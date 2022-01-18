@@ -8,9 +8,13 @@
     <link rel="stylesheet" href="style.css">
     <script src="js.js" defer></script>
 </head>
-<body>
-    <div class="container">
+<body ondragstart="return false;" ondrop="return false;">
+    <div class="side-bar">
+        <input type="text" id="inputNumber">
+        <button onclick="gridMaker()">Enter Grid Size</button>
 
     </div>
+
+    <div class="container"></div>
 </body>
 </html>
