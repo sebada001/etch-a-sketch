@@ -9,9 +9,23 @@
     <script src="js.js" defer></script>
 </head>
 <body ondragstart="return false;" ondrop="return false;">
+    
     <div class="side-bar">
         <input type="text" id="inputNumber">
-        <button onclick="gridMaker()">Enter Grid Size</button>
+        <button onclick="gridMaker()" id="grid-maker" class="buttons">Enter Grid Size</button>
+
+        <label class="switch">
+            <input type="checkbox" id="eraser-toggle">
+            <span class="slider round"></span>
+        </label>
+         <button id="eraser" class="buttons">Eraser</button>
+
+         <label class="switch">
+            <input type="checkbox" id="rainbow-toggle">
+            <span class="slider round"></span>
+        </label>
+         <button id="rainbow" class="buttons">Rainbow</button>
+        
 
     </div>
 
